@@ -4,7 +4,7 @@ first = [[0,0,0],
          [0,0,0],
          [0,0,0]]
 
-print("\nEntrez les éléments de la première matrix :")
+print("\nEntrez les éléments de la première matrice :")
 for i in range(len(first)):
    for j in range(len(first[0])):
        first[i][j] = int(input(">"))
@@ -13,7 +13,7 @@ second = [[0,0,0],
           [0,0,0],
           [0,0,0]]
 
-print("\nEntrez les éléments de la seconde matrix :")
+print("\nEntrez les éléments de la seconde matrice :")
 for i in range(len(first)):
    for j in range(len(first[0])):
        second[i][j] = int(input(">"))
